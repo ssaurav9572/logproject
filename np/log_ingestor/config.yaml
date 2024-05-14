@@ -1,0 +1,16 @@
+logs:
+  log1:
+    path: logs/log1.log
+    level: info
+  log2:
+    path: logs/log2.log
+    level: info
+  log3:
+    path: logs/log3.log
+    level: info
+
+api_to_log:
+  search_api: log1
+  user_api: log2
+  payment_api: log3
+  # Add other API mappings here
